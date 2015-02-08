@@ -1,5 +1,5 @@
 # davidkoppstein.com
 
-Source has a few deviations from a standard pelican install.
+Source code for personal website.
 
-Reminder to self: use "make github"
+[Notes on backend implementation.](HACKING.md). 
