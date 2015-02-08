@@ -82,8 +82,8 @@ stopserver:
 	kill -9 `cat srv.pid`
 	@echo 'Stopped Pelican and SimpleHTTPServer processes running in background.'
 
-publish: 
-	pip install -r requirements.txt
+publish: env
+	source env/bin/activate; \
 	$(PELICAN) $(INPUTDIR) -o $(OUTPUTDIR) -s $(PUBLISHCONF) $(PELICANOPTS)
 
 ssh_upload: publish
@@ -105,8 +105,17 @@ cf_upload: publish
 	cd $(OUTPUTDIR) && swift -v -A https://auth.api.rackspacecloud.com/v1.0 -U $(CLOUDFILES_USERNAME) -K $(CLOUDFILES_API_KEY) upload -c $(CLOUDFILES_CONTAINER) .
 
 github: publish
-	ghp-import -m "Generate Pelican site" -b $(GITHUB_PAGES_BRANCH) $(OUTPUTDIR)
-	cd $(OUTPUTDIR) && git push origin $(GITHUB_PAGES_BRANCH)
+	git add .
+	git commit -m "Generating Pelican Site"
+	cd output && git add -A . && git commit -m "`git log -1 | tail -1`" && git push origin master && cd ..
 	git push origin master
 
-.PHONY: html help clean regenerate serve devserver publish ssh_upload rsync_upload dropbox_upload ftp_upload s3_upload cf_upload github
+# from http://blog.bottlepy.org/2012/07/16/virtualenv-and-makefiles.html
+env: env/bin/activate
+
+env/bin/activate: requirements.txt
+	test -d env || virtualenv -p python3 env
+	source env/bin/activate; pip install -Ur requirements.txt
+	touch $@
+
+.PHONY: html help clean regenerate serve devserver publish ssh_upload rsync_upload dropbox_upload ftp_upload s3_upload cf_upload github env

@@ -6,5 +6,5 @@ My super title
 :tags: thats, awesome
 :category: yeah
 :slug: my-super-post
-:authors: Alexis Metaireau, Conan Doyle
+:authors: David Koppstein
 :summary: Short version for index and feeds
