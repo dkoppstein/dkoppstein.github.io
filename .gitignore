@@ -1,0 +1,9 @@
+# from http://martinbrochhaus.com/pelican2.html
+
+.DS_Store
+*.pid
+*.pyc
+*.swp
+output/
+__pycache__/
+cache/
