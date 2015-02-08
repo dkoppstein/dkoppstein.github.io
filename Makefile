@@ -104,10 +104,12 @@ s3_upload: publish
 cf_upload: publish
 	cd $(OUTPUTDIR) && swift -v -A https://auth.api.rackspacecloud.com/v1.0 -U $(CLOUDFILES_USERNAME) -K $(CLOUDFILES_API_KEY) upload -c $(CLOUDFILES_CONTAINER) .
 
-github: publish
-	git add .
-	git commit -m "Generating Pelican Site"
+github: publish push
 	cd output && git add -A . && git commit -m "`git log -1 | tail -1`" && git push origin master && cd ..
+
+push:
+	git add .
+	git commit -m "Updating source"
 	git push origin master
 
 # from http://blog.bottlepy.org/2012/07/16/virtualenv-and-makefiles.html
