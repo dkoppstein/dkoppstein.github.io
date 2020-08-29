@@ -6,6 +6,9 @@
 *.swp
 output/
 cache/
+
+# stuff for nikola
+.doit*
 .ipynb_checkpoints
 
 .#*
