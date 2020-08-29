@@ -8,8 +8,8 @@
 .. type: text
 .. hidetitle: True
 
-Welcome to my personal homepage. I am currently a postdoctoral researcher in the `lab of
-Nikolaus Rajewsky`_ at the `Berlin Institute of Medical Systems Biology`_. 
+Herzlich willkommen auf meiner persönlichen Website. Ich bin zur Zeit Postdoc-Wissenschaftler im `Labor von
+Nikolaus Rajewsky`_ am `Berliner Institut für Medizinische Systembiologie`_.
 
-.. _`lab of Nikolaus Rajewsky`: https://www.mdc-berlin.de/n-rajewsky
-.. _`Berlin Institute of Medical Systems Biology`: https://www.mdc-berlin.de/bimsb
+.. _`Labor von Nikolaus Rajewsky`: https://www.mdc-berlin.de/n-rajewsky
+.. _`Berliner Institut für Medizinische Systembiologie`: https://www.mdc-berlin.de/bimsb
