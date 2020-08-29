@@ -6,6 +6,7 @@
 *.swp
 output/
 cache/
+.ipynb_checkpoints
 
 .#*
 
