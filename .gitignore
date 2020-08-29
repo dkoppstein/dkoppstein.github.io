@@ -8,7 +8,7 @@ output/
 cache/
 
 # stuff for nikola
-.doit*
+.doit.db
 .ipynb_checkpoints
 
 .#*
