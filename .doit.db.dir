@@ -50,7 +50,7 @@
 'copy_assets:output\\assets\\js\\luxon.min.js', (59904, 444)
 'copy_assets:output\\assets\\js\\baguetteBox.min.js', (60416, 454)
 'render_posts:cache\\posts\\first-post.de.html', (60928, 363)
-'sitemap:output\\sitemap.xml', (368640, 2991)
+'sitemap:output\\sitemap.xml', (368640, 2992)
 'copy_assets:output\\assets\\css\\bootstrap.min.css', (305664, 521)
 'render_taxonomies:output\\2020\\index.html', (140800, 4102)
 'copy_assets:output\\assets\\css\\rst.css', (67584, 433)
