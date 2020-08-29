@@ -242,3 +242,4 @@
 'copy_assets:output\\assets\\css\\bootstrap.css', (352256, 315)
 'render_taxonomies:output\\de\\archive\\index.html', (372224, 2259)
 'render_taxonomies:output\\archive\\index.html', (374784, 2259)
+'copy_files:output\\.files', (379392, 233)
