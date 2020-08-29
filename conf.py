@@ -17,7 +17,7 @@ import time
 
 # Data about this site
 BLOG_AUTHOR = "David Koppstein"  # (translatable)
-BLOG_TITLE = "David Koppstein's Homepage"  # (translatable)
+BLOG_TITLE = "David Koppstein"  # (translatable)
 # This is the main URL for your site. It will be used
 # in a prominent link. Don't forget the protocol (http/https)!
 SITE_URL = "https://www.davidkoppstein.com/"
@@ -138,18 +138,16 @@ TRANSLATIONS_PATTERN = '{path}.{lang}.{ext}'
 
 NAVIGATION_LINKS = {
     DEFAULT_LANG: (
-        ('/index.html', 'Home'),
+#        ('/index.html', 'Home'),
         ("/archive/", "Archive"),
         ("/categories/", "Tags"),
-        ("/rss.xml", "RSS feed"),
         ('/about-me', 'About me'),
     ),
 
     "de": (
-        ('/index.html', 'Startseite'),
+#        ('/index.html', 'Startseite'),
         ("/de/archive/", "Archiv"),
         ("/de/categories/", "Tags"),
-        ("/de/rss.xml", "RSS-Feed"),
         ('/de/about-me', 'Über mich'),
     ),
 }
@@ -162,7 +160,7 @@ NAVIGATION_ALT_LINKS = {
 }
 
 # Name of the theme to use.
-THEME = "bootstrap-jinja"
+THEME = "bootstrap4-jinja"
 
 # Primary color of your theme. This will be used to customize your theme.
 # Must be a HEX value.
@@ -227,10 +225,10 @@ THEME_CONFIG = {
 #     )
 
 POSTS = (
-    ("posts/*.rst", "posts", "post.tmpl"),
-    ("posts/*.md", "posts", "post.tmpl"),
-    ("posts/*.txt", "posts", "post.tmpl"),
-    ("posts/*.html", "posts", "post.tmpl"),
+    ("posts/*.rst", "blog", "post.tmpl"),
+    ("posts/*.md", "blog", "post.tmpl"),
+    ("posts/*.txt", "blog", "post.tmpl"),
+    ("posts/*.html", "blog", "post.tmpl"),
     ("posts/*.ipynb", "blog", "post.tmpl"), # new line
 )
 PAGES = (
@@ -261,14 +259,14 @@ TIMEZONE = "Europe/Berlin"
 # Date format used to display post dates. (translatable)
 # Used by babel.dates, CLDR style: http://cldr.unicode.org/translation/date-time
 # You can also use 'full', 'long', 'medium', or 'short'
-# DATE_FORMAT = 'yyyy-MM-dd HH:mm'
+DATE_FORMAT = 'yyyy-MM-dd'
 
 # Date format used to display post dates, if local dates are used. (translatable)
 # Used by Luxon: https://moment.github.io/luxon/docs/manual/formatting
 # Example for presets: {'preset': True, 'format': 'DATE_FULL'}
-# LUXON_DATE_FORMAT = {
-#     DEFAULT_LANG: {'preset': False, 'format': 'yyyy-MM-dd HH:mm'},
-# }
+LUXON_DATE_FORMAT = {
+    DEFAULT_LANG: {'preset': False, 'format': 'yyyy-MM-dd'},
+}
 
 # Date fanciness.
 #
@@ -564,7 +562,7 @@ HIDDEN_AUTHORS = ['Guest']
 # Final location for the main blog page and sibling paginated pages is
 # output / TRANSLATION[lang] / INDEX_PATH / index-*.html
 # (translatable)
-# INDEX_PATH = ""
+INDEX_PATH = "blog"
 
 # Optional HTML that displayed on “main” blog index.html files.
 # May be used for a greeting. (translatable)
@@ -672,7 +670,7 @@ GITHUB_REMOTE_NAME = 'origin'
 
 # Whether or not github_deploy should commit to the source branch automatically
 # before deploying.
-GITHUB_COMMIT_SOURCE = True
+GITHUB_COMMIT_SOURCE = False
 
 # Where the output site should be located
 # If you don't use an absolute path, it will be considered as relative
