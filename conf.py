@@ -969,28 +969,29 @@ CONTENT_FOOTER = '''
 <p>
 <span class="fa-stack fa-2x">
   <a href="/rss.xml">
-    <i class="fa fa-circle fa-stack-2x"></i>
-    <i class="fa fa-rss fa-inverse fa-stack-1x"></i>
+    <i class="fa fa-rss fa-2x"></i>
   </a>
-</span>
+</span>&nbsp;
 <span class="fa-stack fa-2x">
   <a href="https://twitter.com/dkoppstein">
-    <i class="fa fa-circle fa-stack-2x"></i>
-    <i class="fa fa-twitter fa-inverse fa-stack-1x"></i>
+    <i class="fa fa-twitter fa-2x"></i>
   </a>
-</span>
+</span>&nbsp;
 <span class="fa-stack fa-2x">
   <a href="https://github.com/dkoppstein">
-    <i class="fa fa-circle fa-stack-2x"></i>
-    <i class="fa fa-github fa-inverse fa-stack-1x"></i>
+    <i class="fa fa-github fa-2x"></i>
   </a>
-</span>
+</span>&nbsp;
 <span class="fa-stack fa-2x">
   <a href="https://de.linkedin.com/in/david-koppstein-b38674104">
-    <i class="fa fa-circle fa-stack-2x"></i>
-    <i class="fa fa-linkedin fa-inverse fa-stack-1x"></i>
+    <i class="fa fa-linkedin fa-2x"></i>
   </a>
-</span>
+</span>&nbsp;
+<span class="fa-stack fa-2x">
+  <a href="https://scholar.google.com/citations?user=eEGuQ4MAAAAJ&hl=en">
+    <i class="ai ai-google-scholar-square ai-2x"></i>
+  </a>
+</span>&nbsp;
 <span class="fa-stack fa-2x">
   <a href="mailto:{email}">
     <i class="fa fa-circle fa-stack-2x"></i>
@@ -1275,7 +1276,10 @@ SEARCH_FORM = """
 # Extra things you want in the pages HEAD tag. This will be added right
 # before </head>
 # (translatable)
-EXTRA_HEAD_DATA = '<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css">'
+EXTRA_HEAD_DATA = '''
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+'''
 # Google Analytics or whatever else you use. Added to the bottom of <body>
 # in the default template (base.tmpl).
 # (translatable)

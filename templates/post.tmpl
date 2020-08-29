@@ -3,6 +3,7 @@
 {% import 'post_header.tmpl' as pheader with context %}
 {% import 'comments_helper.tmpl' as comments with context %}
 {% import 'math_helper.tmpl' as math with context %}
+{% import 'ui_helper.tmpl' as ui with context %}
 {% extends 'base.tmpl' %}
 
 {% block extra_head %}
@@ -34,6 +35,7 @@
     </div>
     <aside class="postpromonav">
     <nav>
+    {{ helper.html_tags(post) }}
     {{ helper.html_pager(post) }}
     </nav>
     </aside>
@@ -48,10 +50,15 @@
             crossorigin="anonymous"
             async>
         </script>
-
         </section>
     {% endif %}
     {{ math.math_scripts_ifpost(post) }}
 </article>
 {{ comments.comment_link_script() }}
+{% endblock %}
+
+{% block sourcelink %}
+{% if show_sourcelink %}
+    {{ ui.show_sourcelink(post.source_link()) }}
+{% endif %}
 {% endblock %}
