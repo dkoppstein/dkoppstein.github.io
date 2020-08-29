@@ -24,7 +24,7 @@ SITE_URL = "https://www.davidkoppstein.com/"
 # This is the URL where Nikola's output will be deployed.
 # If not set, defaults to SITE_URL
 # BASE_URL = "https://www.davidkoppstein.com/"
-BLOG_EMAIL = "contact@davidkoppstein.com"
+BLOG_EMAIL = "contact [at] firstnamelastname [dot] com"
 BLOG_DESCRIPTION = "Home page of David Koppstein"  # (translatable)
 
 # Nikola is multilingual!
