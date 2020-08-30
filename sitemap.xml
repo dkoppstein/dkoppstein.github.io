@@ -19,7 +19,11 @@
  </url>
  <url>
   <loc>https://www.davidkoppstein.com/blog/</loc>
-  <lastmod>2020-08-29T21:55:00Z</lastmod>
+  <lastmod>2020-08-30T01:06:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://www.davidkoppstein.com/blog/cv/</loc>
+  <lastmod>2020-08-30T01:06:00Z</lastmod>
  </url>
  <url>
   <loc>https://www.davidkoppstein.com/blog/first-post/</loc>
@@ -43,7 +47,12 @@
  </url>
  <url>
   <loc>https://www.davidkoppstein.com/de/blog/</loc>
-  <lastmod>2020-08-29T21:55:00Z</lastmod>
+  <lastmod>2020-08-30T01:06:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://www.davidkoppstein.com/de/blog/cv/</loc>
+  <lastmod>2020-08-30T01:06:00Z</lastmod>
+  <xhtml:link rel="alternate" hreflang="en" href="https://www.davidkoppstein.com/blog/cv/" />
  </url>
  <url>
   <loc>https://www.davidkoppstein.com/de/blog/first-post/</loc>
