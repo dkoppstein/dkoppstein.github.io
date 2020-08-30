@@ -967,7 +967,7 @@ CONTENT_FOOTER = '''
 <p>
 <span class="fa-stack fa-2x">
   <a href="/rss.xml">
-    <i class="fa fa-rss fa-2x"></i>
+    <i class="fa fa-rss-square fa-stack-2x"></i>
   </a>
 </span>&nbsp;
 <span class="fa-stack fa-2x">
