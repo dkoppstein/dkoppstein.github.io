@@ -138,17 +138,15 @@ TRANSLATIONS_PATTERN = '{path}.{lang}.{ext}'
 
 NAVIGATION_LINKS = {
     DEFAULT_LANG: (
-#        ('/index.html', 'Home'),
-        ("/archive/", "Archive"),
+        ('https://raw.githubusercontent.com/dkoppstein/dkoppstein-resume/master/resume.pdf', 'CV'),
+        ("/archive/", "Blog"),
         ("/categories/", "Tags"),
-        ('/about-me', 'About me'),
     ),
 
     "de": (
-#        ('/index.html', 'Startseite'),
-        ("/de/archive/", "Archiv"),
+        ('https://raw.githubusercontent.com/dkoppstein/dkoppstein-resume/master/resume.pdf', 'Lebenslauf'),
+        ("/de/archive/", "Blog"),
         ("/de/categories/", "Tags"),
-        ('/de/about-me', 'Über mich'),
     ),
 }
 
@@ -974,17 +972,19 @@ CONTENT_FOOTER = '''
 </span>&nbsp;
 <span class="fa-stack fa-2x">
   <a href="https://twitter.com/dkoppstein">
-    <i class="fa fa-twitter fa-2x"></i>
+    <i class="fa fa-twitter-square fa-stack-2x"></i>
+    <i class="fa fa-twitter fa-inverse fa-stack-1x"></i>
   </a>
 </span>&nbsp;
 <span class="fa-stack fa-2x">
   <a href="https://github.com/dkoppstein">
-    <i class="fa fa-github fa-2x"></i>
+    <i class="fa fa-github-square fa-stack-2x"></i>
   </a>
 </span>&nbsp;
 <span class="fa-stack fa-2x">
   <a href="https://de.linkedin.com/in/david-koppstein-b38674104">
-    <i class="fa fa-linkedin fa-2x"></i>
+    <i class="fa fa-square fa-stack-2x"></i>
+    <i class="fa fa-linkedin fa-inverse fa-stack-1x"></i>
   </a>
 </span>&nbsp;
 <span class="fa-stack fa-2x">
@@ -994,7 +994,7 @@ CONTENT_FOOTER = '''
 </span>&nbsp;
 <span class="fa-stack fa-2x">
   <a href="mailto:{email}">
-    <i class="fa fa-circle fa-stack-2x"></i>
+    <i class="fa fa-square fa-stack-2x"></i>
     <i class="fa fa-envelope fa-inverse fa-stack-1x"></i>
   </a>
 </span>
