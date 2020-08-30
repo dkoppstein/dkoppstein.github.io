@@ -977,6 +977,11 @@ CONTENT_FOOTER = '''
   </a>
 </span>&nbsp;
 <span class="fa-stack fa-2x">
+  <a href="https://orcid.org/0000-0002-8618-7237">
+    <i class="ai ai-orcid-square ai-2x"></i>
+  </a>
+</span>&nbsp;
+<span class="fa-stack fa-2x">
   <a href="https://github.com/dkoppstein">
     <i class="fa fa-github-square fa-stack-2x"></i>
   </a>

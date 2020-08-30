@@ -17,7 +17,9 @@ Welcome to my personal homepage. I am currently a postdoctoral researcher in the
 Nikolaus Rajewsky`_ at the `Berlin Institute of Medical Systems Biology`_, where I am currently
 researching the RNA biology of `neurodegenerative diseases`_ such as ALS using spatial
 and long-read approaches (`CZI`_), and more recently `SARS-CoV-2`_ using next-generation sequencing of
-virus-infected epithelial or virus-induced endothelial cells (`BMBF`_).
+virus-infected epithelial or virus-induced endothelial cells (`BMBF`_). I previously used novel approaches to
+`map RNA termini`_ in the `Bartel lab`_ at MIT, and researched single-cell immunology
+in the `biotech industry`_ and at the `UNSW`_ in Sydney.
 
 In my spare time, I enjoy contributing to `bioinformatics`_ and `educational`_ projects,
 `cycling`_, learning `German`_, and `writing`_.
@@ -33,3 +35,7 @@ In my spare time, I enjoy contributing to `bioinformatics`_ and `educational`_ p
 .. _`writing`: blog
 .. _`CZI`: https://medium.com/@cziscience/supporting-bold-and-transformative-ideas-in-neurodegeneration-47e69b4e215f
 .. _`BMBF`: https://www.gesundheitsforschung-bmbf.de/de/erforschung-von-covid-19-im-zuge-des-ausbruchs-von-sars-cov-2-11483.php
+.. _`map RNA termini`: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4446424/
+.. _`Bartel lab`: http://bartellab.wi.mit.edu/
+.. _`biotech industry`: https://www.biorxiv.org/content/10.1101/134841v1
+.. _`UNSW`: https://kirby.unsw.edu.au/people/dr-fabio-luciani
