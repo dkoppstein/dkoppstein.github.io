@@ -18,6 +18,8 @@ Nikolaus Rajewsky`_ am `Berliner Institut für Medizinische Systembiologie`_, wo
 RNA-Biologie `neurodegenerativer Erkrankungen`_ wie ALS mit räumlich und long-read Ansätze (`CZI`_), und kürzlich `SARS-CoV-2`_
 unter Verwendung der Sequenzierung der nächsten Generation von
 Virus-infizierte Epithelzellen oder virusinduzierte Endothelzellen (`BMBF`_).
+Früher habe ich neue Ansätze verwendet, um `RNA-Termini`_ im `Bartel-Labor`_ am MIT
+zu finden, und Einzelzell-Immunologie erforscht in der `Biotech-Industrie`_ und auf der `UNSW`_ in Sydney.
 
 Es macht mir Spaß, an `Bioinformatik-`_ und `Bildungsprojekten`_ mitzuwirken,
 mein `Rennrad`_ zu fahren, `Deutsch`_ zu lernen und zu `schreiben`_.
@@ -33,3 +35,7 @@ mein `Rennrad`_ zu fahren, `Deutsch`_ zu lernen und zu `schreiben`_.
 .. _`schreiben`: blog
 .. _`CZI`: https://medium.com/@cziscience/supporting-bold-and-transformative-ideas-in-neurodegeneration-47e69b4e215f
 .. _`BMBF`: https://www.gesundheitsforschung-bmbf.de/de/erforschung-von-covid-19-im-zuge-des-ausbruchs-von-sars-cov-2-11483.php
+.. _`RNA-Termini`: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4446424/
+.. _`Bartel-Labor`: http://bartellab.wi.mit.edu/
+.. _`Biotech-Industrie`: https://www.biorxiv.org/content/10.1101/134841v1
+.. _`UNSW`: https://kirby.unsw.edu.au/people/dr-fabio-luciani
